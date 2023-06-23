@@ -181,7 +181,7 @@ h5{
 
 
 
-@media (max-width:500px){
+@media (max-width:600px){
   :root{
     --padding-inline-section:10px;
     
@@ -273,6 +273,19 @@ flex-direction: column;
   margin-top: 5px;
 
 }
+.about-left{
+  width: 60px;
+  height: 150px;
+
+}
+.about-left img{
+  width:100 px;
+  height: 150px;
+  padding-right: 250px;
+}
+.about-right p{
+  color: black;
+}
     
 .text-3{
   display: none;
@@ -286,6 +299,17 @@ flex-direction: column;
   line-height: 35px;
   padding-left: 40px;
   font-size: 18px;
+}
+.card{
+  height: 200px;
+  width: 300px;padding: 20px 35px;
+  background: #0ef;
+  border-radius: 20px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
 }
 .card i{
   font-size: 18px;
@@ -302,6 +326,9 @@ h5{
   font-size: 12px;
   line-height: 27px;
   margin-bottom: 15px;
+}
+.contact-info{
+  color: black;
 }
 
 }
