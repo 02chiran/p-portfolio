@@ -415,16 +415,7 @@ font-family: 'Ubuntu',sans-serif;
     font-family: 'Ubuntu',sans-serif;
     
     }
-    .title::before{
-        content: "";
-        position: absolute;
-        bottom: -2px;
-        width: 180px;
-        height: 3px;
-        background: #fff;
-        transform: translateX(-50%);
-    
-    }
+
 .box{
     display: flex;
     justify-content: center;
