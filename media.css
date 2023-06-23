@@ -226,7 +226,7 @@ p{
 
 
 .container{
-  padding: 0 50px;
+  padding: 0 20px;
 }
 
 .main-nav{
@@ -298,7 +298,7 @@ flex-direction: column;
 .about-left img{
   width:100 px;
   height: 150px;
-  padding-right: 250px;
+  padding-right: 200px;
 }
 .about-right p{
   color: black;
@@ -347,6 +347,20 @@ h5{
 
 .contact-info{
   color: black;
+}
+.contact-info a{
+  color:#2b2730;
+  font-size: 18px;
+}
+.primary-button{
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  font-weight: 600;
+  color: white !important;
+  padding: 4pxpx 20px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 0.2 ease-out;
+ 
 }
 
 }

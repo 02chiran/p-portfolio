@@ -66,7 +66,7 @@
     }
     .primary-button{
         background-color: var(--accent-color);
-        border-radius: 6px;
+        border-radius: 20px;
         font-weight: 700;
         color: white !important;
         padding: 12px 24px;
@@ -76,6 +76,7 @@
     
     .primary-button:hover{
         background-color: var(--accent-color-dark);
+       
     }
     .secondary-button{
         border: 0.5px solid var(--secondary-text-color);
@@ -248,7 +249,7 @@
         width: 100%;
         background: #2b2730;
         border-left:2px solid crimson ;
-        animation: typing 1.5s steps(13) infinite;
+        animation: typing 1.5s steps(15) infinite;
 
 
     }
@@ -258,6 +259,9 @@
             margin: 0 -35px 0 40px;
 
         }
+    }
+    .header-left .text-2{
+        color: #0ef;
     }
     .header-left .text-3 span{
         color: crimson;
@@ -342,6 +346,11 @@ font-family: 'Ubuntu',sans-serif;
 }
 .about-right .text{
     color: #000;
+    padding-bottom: 5px;
+}
+.about-right p{
+    padding-bottom: 5px;
+
 }
 
 
@@ -497,14 +506,19 @@ h5{
     font-size: 18px;
   }
   
-  .contact-info i{
+  .contact-info a{
     margin-right: 20px;
     font-size: 25px;
+  }
+  .contact-info a:hover{
+    cursor: pointer;
+    color: crimson;
+  
   }
   
   .contact-form{
     max-width: 700px;
-    margin-right: 50px;
+    margin-right: 50px;.contact-info a
   }
   
   .contact-info, .contact-form{
