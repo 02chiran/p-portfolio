@@ -52,6 +52,23 @@
   font-size: 15px;
 
 }
+@media screen and (max-width: 950px){
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form{
+    margin: 20px 50px;
+  }
+
+  .contact-form h2{
+    font-size: 30px;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
+  }
+}
   }
     
   @media (max-width:767px){
@@ -301,7 +318,7 @@ flex-direction: column;
   font-size: 18px;
 }
 .card{
-  height: 200px;
+  height: 210px;
   width: 300px;padding: 20px 35px;
   background: #0ef;
   border-radius: 20px;
