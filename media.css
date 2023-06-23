@@ -58,7 +58,7 @@
   }
 
   .contact-info, .contact-form{
-    margin: 20px 50px;
+    margin: 20px 40px;
   }
 
   .contact-form h2{
@@ -341,9 +341,10 @@ h5{
 .pra p{
   color: black;
   font-size: 12px;
-  line-height: 27px;
+  line-height: 15px;
   margin-bottom: 15px;
 }
+
 .contact-info{
   color: black;
 }

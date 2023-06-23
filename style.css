@@ -296,7 +296,7 @@
     
     }
     .gs-button{
-        margin-top: 20px;
+        margin-top: 10px;
     
     }
     section{
@@ -606,13 +606,11 @@ footer a{
     margin-bottom: 0px;
     font-weight: bold;
 }
-.social{
-    padding-bottom: 60px;
-}
+
 
 .end{
-    position: relative;
-    padding-top: 0px;
+    
+    padding-top: 40px;
     color: crimson;
     bottom: 0px;
     font-size: 14px;
